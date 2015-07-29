@@ -1,0 +1,39 @@
+{
+  "name": "itunes-app-info",
+  "version": "0.0.1",
+  "description": "Simple module to return useful info from HockeyApp about your app",
+  "main": "index.js",
+  "keywords": [
+    "hockey",
+    "hockeyapp",
+    "app",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/hongkongkiwi/node-hockeyapp-app-info/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongkongkiwi/node-hockeyapp-app-info.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "postversion": "git add package.json && git commit -m 'Incremented package.json version to %s'"
+  },
+  "author": "Andy Savage <andy@savage.hk<",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "debug": "^2.2.0",
+    "make-url": "0.0.1",
+    "request": "^2.60.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
