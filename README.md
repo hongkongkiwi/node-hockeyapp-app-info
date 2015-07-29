@@ -1,2 +1,3 @@
-# node-itunes-app-info
-# node-hockeyapp-app-info
+# HockeyApp App Info
+
+This is a module to get HockeyApp info.
